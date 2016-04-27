@@ -6,7 +6,7 @@ myicecast:
       - "8000:8000"
       - "6600:6600"
 frontend:
-   build: .
+   image: alastairhm/docker-ympd:alpine
    links:
       - myicecast:mpdhost 
    ports:
