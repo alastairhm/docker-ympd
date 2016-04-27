@@ -14,4 +14,4 @@ RUN git clone https://github.com/notandy/ympd && \
 
 EXPOSE 8080
 
-CMD ["/bin/ympd", "-h mpdhost"]
+CMD ["/bin/ympd", "-h","mpdhost"]
