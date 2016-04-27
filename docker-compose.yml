@@ -1,12 +1,12 @@
 myicecast:
    image: alastairhm/docker-icecast
    volumes:
-      - /Users/amontgomery/Downloads/:/opt/music
+      - /home/alastair/Music/:/opt/music/:/opt/music
    ports:
       - "8000:8000"
       - "6600:6600"
 frontend:
-   image: alastairhm/docker-ympd:alpine
+   image: alastairhm/docker-ympd:latest
    links:
       - myicecast:mpdhost 
    ports:
