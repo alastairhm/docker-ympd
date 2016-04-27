@@ -8,6 +8,6 @@ myicecast:
 frontend:
    image : alastairhm/docker-ympd
    links:
-      - myicecast:mpdclient 
+      - myicecast:mpdhost 
    ports:
-      - "80:808080"
+      - "8080:8080"
