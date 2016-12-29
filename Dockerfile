@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM armhf/alpine:latest
 
 MAINTAINER Alastair Montgomery "alastair@montgomery.me.uk"
 
