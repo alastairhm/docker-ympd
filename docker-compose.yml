@@ -1,7 +1,7 @@
 myicecast:
-   image: alastairhm/docker-icecast
+   image: ghcr.io/alastairhm/docker-icecast:latest
    volumes:
-      - /home/alastair/Music/:/opt/music/:/opt/music
+      - /home/alastair/Music/:/opt/music/
    ports:
       - "8000:8000"
       - "6600:6600"
