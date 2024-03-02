@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM alpine:3.19
 
 MAINTAINER Alastair Montgomery "alastair@montgomery.me.uk"
 
